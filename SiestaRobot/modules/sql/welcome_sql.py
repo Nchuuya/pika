@@ -8,7 +8,7 @@ from sqlalchemy import Boolean, Column, String, UnicodeText, Integer
 from sqlalchemy.sql.sqltypes import BigInteger
 
 
-DEFAULT_WELCOME_MESSAGES = [
+DEFAULT_WELCOME = [
     "{first} is here!",  # Discord welcome messages copied
     "Ready player {first}",
     "Genos, {first} is here.",
