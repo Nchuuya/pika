@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇬🇧"
 # name of people(s) who worked on this translation
-authors: "@saint_foire"
+authors: "@Weeb_lover"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -10,7 +10,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *Hey 😃, {} *
-  ✪ I'm an anime-theme management robot [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  ✪ I'm an anime-theme management robot [✨](https://telegra.ph/file/438ea17e93f284ae9fe9d.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Server Uptime :* `{}`
@@ -35,11 +35,11 @@ pm_about_text: |
   ✪ I check for admins' permissions before executing any command and more stuffs
 
   _Siesta's licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for Siesta Robot.
+  Click on button bellow to get basic help for Pikachu Robot.
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
-  Congragulations, Siesta Robot now ready to manage your group.
+  Congragulations, Pikachu now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -56,11 +56,11 @@ pm_about_notes_text: |
 pm_about_support_text: |
   *✺ Siesta Robot support chats ✺*
 
-  Join My Support Group/Channel for see or report a problem on Siesta.
+  Join My Support Group/Channel for see or report a problem on Pikachu.
 pm_about_credit_text: |
   *✺ Credis for Siesta ✺*
 
-  Here Developers Making And Give Inspiration For Made The Siesta Robot
+  Here Developers Making And Give Inspiration For Made The Pikachu
 pm_help_text: |
   *✺ Click on the button bellow to get description about specifics command. ✺*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
@@ -87,9 +87,9 @@ support_chat_link_button: "Support"
 updates_channel_link_button: "Update"
 notes_button: "Notes"
 source_button: "Source Code"
-help_button: "Get Help"
+help_button: "Help"
 back_button: "Go back"
-about_button: "About Siesta Robot"
+about_button: "About Pikachu"
 inline_button: "Try inline!​​"
 
 # MODULES
