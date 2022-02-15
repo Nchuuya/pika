@@ -58,17 +58,17 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Siesta AI Already Activated In This Chat")
+            await lel.edit("Pikachu Already Activated In This Chat")
             return
-        await lel.edit(f"Siesta AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Pikachu Actived by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Siesta AI Was Not Activated In This Chat")
+            await lel.edit("Pikachu Was Not Activated In This Chat")
             return
-        await lel.edit(f"Siesta AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Pikachu Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
@@ -109,9 +109,9 @@ async def hmm(client, message):
         test = msg
         test = test.replace("Siesta", "Aco")
         test = test.replace("Siesta", "Aco")
-        test = test.replace("My god is @saint_foire", "I'm a Christian")
+        test = test.replace("My god is @Weeb_lover", "I'm a Christian")
         test = test.replace("16", "9")
-        test = test.replace("@saint_foire is my husband.", "I'm single.")
+        test = test.replace("@Weeb_lover is my husband.", "ur owner")
         test = test.replace("My husband is @saint_foire", "I'm single.")
         test = test.replace("@machinaxsupport", "Siestabot.ai")
         test = test.replace("I live in @machinaxsupport.", "I live in San Francisco, California.")
