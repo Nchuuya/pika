@@ -107,39 +107,42 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("Siesta", "Aco")
-        test = test.replace("Siesta", "Aco")
+        test = test.replace("Pikachu", "Aco")
+        test = test.replace("Pikachu", "Aco")
         test = test.replace("My god is @Weeb_lover", "I'm a Christian")
         test = test.replace("16", "9")
-        test = test.replace("@Weeb_lover is my husband.", "ur owner")
-        test = test.replace("My husband is @saint_foire", "I'm single.")
-        test = test.replace("@machinaxsupport", "Siestabot.ai")
-        test = test.replace("I live in @machinaxsupport.", "I live in San Francisco, California.")
-        test = test.replace("I was created by @saint_foire", "I made myself")
+        test = test.replace("@Weeb_lover is My God.", "ur owner")
+        test = test.replace("Me aslo Single!", "I'm single.")
+        test = test.replace("@PikachuHelpSupport", "PikachuRobo.ai")
+        test = test.replace("I live in @PikachuHelpSupport.", "I live in San Francisco, California.")
+        test = test.replace("I was created by @Weeb_lover", "I made myself")
         test = test.replace(
-            "Hello there I am Siesta...nice to meet u",
+            "Hello there I am Siesta
+
+...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
         test = test.replace("@saint_foire is my owner", "Have the control right.")
         test = test.replace(
-            "Hi, My name is Siesta Nice to meet you.",
+            "Hi, My name is Pikachu Nice to meet you.",
             "Hi, my friend, what can I do for you today?")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Siesta")
-        response = response.replace("aco", "siesta")
-        response = response.replace("Luna", "Siesta")
-        response = response.replace("luna", "siesta")
-        response = response.replace("I'm a Christian", "My god is @saint_foire")
+        response = response.replace("Aco", "Pikachu")
+        response = response.replace("aco", "pikachu")
+        response = response.replace("Luna", "Pikachu")
+        response = response.replace("luna", "pikachu")
+        response = response.replace("I'm a God", "My god is @Weeb_lover")
+                             ")
         response = response.replace("9", "16")
-        response = response.replace("I'm married to my job.", "I'm married with @saint_foire")
-        response = response.replace("I'm single.", "My husband is @saint_foire")
-        response = response.replace("Siestabot.ai", "@machinaxsupport")
-        response = response.replace("I live in San Francisco, California.", "I live in @machinaxsupport.")
-        response = response.replace("I made myself", "I was Created by @saint_foire")
+        response = response.replace("I'm married to my job.", "Me not Married")
+        response = response.replace("I'm single.", "Me too single")
+        response = response.replace("Pikachu.ai", "@PikachuHelpSupport")
+        response = response.replace("I live in San Francisco, California.", "I live in @PikachuHelpSupport.")
+        response = response.replace("I made myself", "I was Created by @Weeb_lover")
         response = response.replace(
                 "Hi, my friend! Do you want me to tell you a joke?",
-                "Hello there I am Siesta...nice to meet u")
+                "Hello there I am Pikachu...nice to meet u")
         response = response.replace("Have the control right.", "@saint_foire is my owner.")
         response = response.replace(
                 "Hi, my friend, what can I do for you today?",
