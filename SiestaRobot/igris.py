@@ -1,5 +1,5 @@
 from telethon import events
-from AsunaRobot import telethn
+from SiestaRobot import telethn
 
 """Triggers start command in pm and in groupchats"""
 def igrisbot(**args):
